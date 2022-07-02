@@ -15,7 +15,7 @@ before_script:
 
 script:
   - docker --version # print the version for logging
-  - docker build -t docker compose -f docker-compose-build.yaml build --parallel
+  - docker compose -f docker-compose-build.yaml build --parallel
   - docker tag udagram-api-feed bennydicta/udagram-api-feed
   - docker tag udagram-api-user bennydicta/udagram-api-user
   - docker tag udagram-frontend bennydicta/udagram-frontend
