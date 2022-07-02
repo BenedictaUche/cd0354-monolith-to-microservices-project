@@ -33,3 +33,5 @@ after_success:
   - docker push $DOCKER_USERNAME/udagram-api-user
   - docker push $DOCKER_USERNAME/udagram-frontend
   - docker push $DOCKER_USERNAME/reverseproxy 
+
+  
