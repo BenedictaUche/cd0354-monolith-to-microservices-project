@@ -33,3 +33,4 @@ after_success:
   - docker push bennydicta/udagram-api-user
   - docker push bennydicta/udagram-frontend
   - docker push bennydicta/reverseproxy 
+
